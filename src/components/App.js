@@ -1,9 +1,14 @@
 import React from "react"
-import { StrictMode} from "react"
+import user from "../data/user.json"
+import Profile from "./social-profile/Profile";
 
 const App = () => {
     return (
-        <h2>React</h2>
+        <Profile name={user.name}
+  tag={user.tag}
+  location={user.location}
+  avatar={user.avatar}
+  stats={user.stats} />
     );
  }
 
