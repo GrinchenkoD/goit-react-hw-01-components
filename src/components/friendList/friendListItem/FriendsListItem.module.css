@@ -1,0 +1,32 @@
+.item:not(:last-child){
+    margin-bottom: 10px;
+}
+.item{
+    box-shadow: 0 4px 3px rgb(114, 114, 114);
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+
+}
+.online, .offline{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0px 40px;
+}
+
+.online{ background-color: green;
+}
+.offline{
+    background-color: red;
+}
+.avatar{
+    margin-right: 40px;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+.name{
+    font-size: 25px;
+    font-weight: 700;
+}
