@@ -1,0 +1,10 @@
+.transactionHistory{
+    width: 50%;
+}
+.tableHead{
+background-color: lightseagreen;
+}
+.tableHeadCell{
+    padding: 20px 0px;
+    font-size: 25px;
+}
